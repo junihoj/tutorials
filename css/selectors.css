@@ -1,0 +1,92 @@
+body{
+    /* background-color:rgba(0, 0, 255, 0.4); */
+    /* background-image: url('../images/html-icon.jpg'), url('../images/OIP.jpg');
+    background-repeat: no-repeat; */
+    /* background-color:rgba(0, 0, 255, 0.4); */ 
+    background: url('../images/html-icon.jpg'), url('../images/OIP.jpg') black;
+    background-repeat: no-repeat;
+}
+section p{
+    color:purple;
+}
+h4 + a{
+    font-size: 1rem;
+}
+
+h4 + a:hover{
+
+}
+
+/* h1:hover{
+    color: green;
+    font-size: 4rem;
+} */
+
+.box-model{
+    background-color: teal;
+    height: 500px;
+    width: 500px;
+    margin-left: 15px;
+    margin-top: 60px;
+    border:17px solid red;
+    padding-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.box-model p{
+    background-color: red;
+    margin-top: 120px;
+    padding:50px;
+}
+
+
+/* .section-1{
+    color: blue;
+} */
+/* p, h1{
+   color: red;
+} */
+
+/* select an element of a particular class */
+
+/* p.box{
+    color: red;
+} */
+
+.shortcut{
+    background-color: coral;
+    padding: 50px;
+    margin:60px;
+    border:7px solid black;
+    
+}
+.shortcut ul{
+    width:50px;
+    background-color: blue;
+    padding: 15px 0px 15px;
+    list-style-type: none;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    /* border: 2px solid black; */
+  }
+
+td, th {
+    border: 1px solid #000000;
+    /* border-color: black;
+    border-style: solid; */
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
